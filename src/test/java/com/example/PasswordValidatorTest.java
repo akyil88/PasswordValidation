@@ -21,4 +21,5 @@ public class PasswordValidatorTest {
         System.out.println("Testfall 2: Passwortlänge ist kleiner als 8 - Erwartet: false, Ergebnis: " + result2);
         assertFalse(result2);
     }
+
 }
