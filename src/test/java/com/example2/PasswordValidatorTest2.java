@@ -10,7 +10,7 @@ public class PasswordValidatorTest2 {
     @Test
     void testHasDigit() {
 
-        String passwordWithDigit = "passwörter";
+        String passwordWithDigit = "passwörter2";
         assertTrue(PasswordValidator2.hasDigit(passwordWithDigit));
 
         String passwordWithoutDigit = "password";
