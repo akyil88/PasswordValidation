@@ -1,4 +1,4 @@
-package com.example3;
+package com.example;
 
 public class PasswordValidator3 {
     public boolean containsBothUpperCaseAndLowerCase(String password) {

@@ -1,4 +1,4 @@
-package com.example3;
+package com.example;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +9,7 @@ public class PasswordValidatorTest3 {
     @Test
     public void testPasswordContainsBothUpperCaseAndLowerCase(){
         PasswordValidator3 validator = new PasswordValidator3();
-        assertTrue(validator.containsBothUpperCaseAndLowerCase("AdDfR"));
+        assertTrue(validator.containsBothUpperCaseAndLowerCase("aaaaaaaA"));
 
     }
 }

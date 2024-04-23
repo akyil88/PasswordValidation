@@ -1,4 +1,4 @@
-package com.example4;
+package com.example;
 
 public class PasswordValidator4 {
 

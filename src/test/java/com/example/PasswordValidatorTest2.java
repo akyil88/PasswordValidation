@@ -1,5 +1,6 @@
-package com.example2;
+package com.example;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -11,7 +12,7 @@ public class PasswordValidatorTest2 {
     void testHasDigit() {
 
         String passwordWithDigit = "passwörter2";
-        assertTrue(PasswordValidator2.hasDigit(passwordWithDigit));
+        Assertions.assertTrue(PasswordValidator2.hasDigit(passwordWithDigit));
 
         String passwordWithoutDigit = "password";
         assertFalse(PasswordValidator2.hasDigit(passwordWithoutDigit));
